@@ -4,3 +4,87 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 */
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__top {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 94px;
+    padding: 23px 52px;
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.menu__list-item + .menu__list-item {
+    margin-left: 50px;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #373A39;
+    border-bottom: 1px solid transparent;
+    transition: all .5s;
+    padding-bottom: 9px;
+}
+
+.menu__link:hover{
+    border-bottom: 1px solid #FCBB08;
+}
+
+.header__content{
+    min-height: 658px;
+    padding: 213px 0 62px 0;
+    background-image: url(../images/Header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header__content-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 122px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.header__content-descr{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FCBB08;
+    text-align: center;
+    margin-bottom: 179px;
+}
+
+.header__content-decor{
+    width: 26px;
+    height: 43px;
+    background: url(../images/mouse.png) center center no-repeat;
+    margin: 0 auto;
+}
