@@ -109,6 +109,7 @@ font-family: 'Raleway', sans-serif;
     line-height: 75px;
     color: #242121;
     position: relative;
+    margin-bottom: 90px;
 }
 
 .title::before{
@@ -129,20 +130,41 @@ font-family: 'Raleway', sans-serif;
     line-height: 24px;
 }
 
-.expertise{
-    padding: 143px 0 164px 0;
+.about__text-p + .about__text-p{
+    margin-top: 18px;
 }
 
-.title.expertise__title{
-    margin-bottom: 90px;
+.expertise{
+    padding: 143px 0 164px 0;
 }
 
 .expertise__content{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 110px;
 }
 
+.expertise__content-items{
+    margin-top: 13px;
+}
 
+.expertise__content-item{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 28px;
+    position: relative;
+    padding-right: 315px;
+}
+.expertise__content-item::before{
+    content: '';
+    position: absolute;
+    width: 370px;
+    height: 2px;
+    background-color: #F0F0F0;
+    top: -6px;
+}
 
 .expertise__content-text{
     width: 770px;
@@ -150,4 +172,59 @@ font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
+}
+
+.expertise__content-text-p + .expertise__content-text-p{
+    margin-top: 18px;
+}
+
+.expertise__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.expertise__item{
+    max-width: 370px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.expertise__item-img{
+    margin-right: 16px;
+}
+
+.expertise__item-box{
+    padding: 0 19px;
+}
+
+.expertise__item-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 14px;
+}
+
+.expertise__item-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.features{
+    min-height: 840px;
+    background: #F6F8FA;
+    padding: 101px 0 180px 0;
+}
+
+.features__inner{
+    max-width: 560px;
+}
+
+.title.features__title{
+    padding-right: 200px;
+}
+.title.features__title::before{
+    top: 160px;
 }
