@@ -504,3 +504,32 @@ font-family: 'Raleway', sans-serif;
     color: #242121;
     cursor: pointer;
 }
+
+
+
+
+/* .footer{
+} */
+
+.footer__content{
+    min-height: 552px;
+    padding: 110px 0 60px 0;
+    background: #373A39;
+    text-align: center;
+}
+
+.logo.logo--line{
+    position: relative;
+    margin-bottom: 99px;
+}
+
+.logo.logo--line::after{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    background: #FCBB08;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 66px;
+}
