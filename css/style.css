@@ -371,7 +371,6 @@ font-family: 'Raleway', sans-serif;
 
 .slider__item-title{
     font-family: 'Montserrat', sans-serif;
-    
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
@@ -385,4 +384,123 @@ font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
+}
+
+.team{
+    padding: 120px 0 164px 0;
+}
+
+.team__items{
+    margin-top: 102px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team__item-img{
+    margin-bottom: 35px;
+}
+
+.team__item-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 12px;
+    color: #333333;
+}
+
+.team__item-position{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #C2C2C2;
+}
+
+.pricing{
+    min-height: 1073px;
+    background: #F6F8FA;
+    padding: 144px 0 162px 0;
+}
+
+.pricing__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__item{
+    padding: 24px 24px 53px;
+    width: 370px;
+    min-height: 583px;
+    background: #FFFFFF;
+}
+
+.pricing__item-name{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242121;
+    margin-bottom: 8px;
+}
+
+.pricing__item-rate{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 109px;
+    text-align: center;
+    margin-bottom: 51px;
+    position: relative;
+    color: #242121;
+    padding-left: 67px;
+}
+
+.pricing__item-rate::before{
+    content: '$';
+    position: absolute;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px;
+    top: 12px;
+    left: 92px;
+}
+
+.pricing__item-rate span{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.pricing__list{
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.pricing__list-item + .pricing__list-item{
+    margin-top: 30px;
+}
+
+.pricing__btn{
+    border: none;
+    display: block;
+    margin: 69px auto 0;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #242121;
+    cursor: pointer;
 }
