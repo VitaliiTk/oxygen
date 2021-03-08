@@ -24,6 +24,7 @@ font-family: 'Raleway', sans-serif;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 99;
 }
 
 .header__top-inner {
@@ -215,16 +216,173 @@ font-family: 'Raleway', sans-serif;
 .features{
     min-height: 840px;
     background: #F6F8FA;
-    padding: 101px 0 180px 0;
+    padding: 101px 0 170px 835px;
+    background-image: url(../images/features.jpg);
+    background-repeat: no-repeat;
 }
 
 .features__inner{
-    max-width: 560px;
+    max-width: 470px;
 }
 
 .title.features__title{
-    padding-right: 200px;
+    padding-right: 100px;
 }
 .title.features__title::before{
     top: 160px;
+}
+
+.features__text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.features__text-p + .features__text-p{
+    margin-top: 18px;
+}
+
+.portfolio{
+    padding: 140px 0 0 0;
+}
+
+.portfolio__head{
+    padding-bottom: 103px;
+}
+
+.portfolio__head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__buttons{
+    margin-top: 30px;
+}
+
+.portfolio__btn{
+    border: none;
+    background: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    cursor: pointer;
+    padding-bottom: 7px;
+    border-bottom: 1px solid transparent;
+    transition: all .5s;
+}
+
+.portfolio__btn:hover{
+    border-bottom: 1px solid #FCBB08;
+}
+
+.portfolio__btn + .portfolio__btn{
+    margin-left: 40px;
+}
+
+.portfolio__items{
+    min-height: 912px;
+}
+
+.portfolio__bottom{
+    min-height: 100px;
+    padding: 42px 0;
+    background-color: #F6F8FA;
+    text-align: center;
+}
+
+.portfolio__btn-all{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.video{
+    min-height: 757px;
+    padding: 130px 0 0 0;
+    text-align: center;
+}
+
+.video__quotes{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 51px;
+    padding: 0 394px;
+}
+
+.video__quotes-author{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 32px;
+    color: #9E9E9E;
+    margin-bottom: 148px;
+}
+
+.video__content{
+    height: 324px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.statistics{
+    min-height: 431px;
+    padding: 164px 0 166px;
+}
+
+.statistics__inner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.statistics__item-num{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 9px;
+}
+
+.statistics__item-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #00B2A0;
+}
+
+.slider{
+    min-height: 840px;
+    padding: 307px 0 116px 0;
+    background: #F6F8FA;
+}
+
+.slider__item-title{
+    font-family: 'Montserrat', sans-serif;
+    
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    width: 704px;
+    margin-bottom: 3px;
+}
+
+.slider__item-text{
+    font-family: 'Open Sans', sans-serif;
+    width: 560px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
 }
