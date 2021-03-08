@@ -92,3 +92,62 @@ font-family: 'Raleway', sans-serif;
     background: url(../images/mouse.png) center center no-repeat;
     margin: 0 auto;
 }
+
+.about{
+    padding: 143px 0 152px 0;
+    background: #F6F8FA;
+}
+
+.about__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    line-height: 75px;
+    color: #242121;
+    position: relative;
+}
+
+.title::before{
+    content: '';
+    position: absolute;
+    background: #FCBB08;
+    width: 60px;
+    height: 4px;
+    top: 85px;
+}
+
+.about__text{
+    width: 770px;
+    margin-top: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.expertise{
+    padding: 143px 0 164px 0;
+}
+
+.title.expertise__title{
+    margin-bottom: 90px;
+}
+
+.expertise__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.expertise__content-text{
+    width: 770px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
