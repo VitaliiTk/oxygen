@@ -3,6 +3,5 @@ $(function(){
         autoplay: true,
         arrows: true,
         dots: true,
-        // appendArrows:$('.slider__arrows')
     });
   });
