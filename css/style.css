@@ -416,6 +416,7 @@ font-family: 'Raleway', sans-serif;
 
 .slider__box{
     position: relative;
+    padding: 0 80px;
 }
 
 .slider__box .slick-arrow{
@@ -436,14 +437,14 @@ font-family: 'Raleway', sans-serif;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
-    left: -5%;
+    left: 0;
 }
 .slider__box .slick-next{
     background-image: url('../images/right.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
-    right: -5%;
+    right: 0;
 }
 
 
